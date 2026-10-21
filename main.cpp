@@ -5,7 +5,7 @@
 // Day numbers are sequence numbers, not calendar dates.
 constexpr int LOAN_DAYS = 7;
 constexpr int FIRST_CHECKOUT_DAY = 0;
-constexpr int LAST_CHECKOUT_DAY = 365;
+constexpr int LAST_CHECKOUT_DAY = 30;
 
 bool isValidCheckoutDay(int day) {
     return day >= FIRST_CHECKOUT_DAY && day <= LAST_CHECKOUT_DAY;
