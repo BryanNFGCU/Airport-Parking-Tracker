@@ -1,5 +1,15 @@
 /* 
 First iteration, needs AirportParking.txt file in build folder.
+Layout:
+1 1
+2 1
+3 0
+4 0
+5 0
+
+First number is the parking spot, second number is either 1 or 0. 1 Means Unavailable and 0 means Available
+
+So far the program:
  * 1. Reads parking spots from AirportParking.txt
  * 2. Displays each spot as Available or Unavailable
  * 3. Asks the user for a spot number to reserve
