@@ -17,7 +17,7 @@ Instructions :
 
 * Operating System : Windows 11
 * Compiler : Microsoft Visual Studio 2022 
-* C++ Standard:
+* C++ Standard: C20 
 
  Instructions To Program:
  1. Start the program
