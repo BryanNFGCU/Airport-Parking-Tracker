@@ -13,19 +13,27 @@ What we need to add:
 
 
 
-Instructions :
+Instructions:
 
 * Operating System : Windows 11
 * Compiler : Microsoft Visual Studio 2022 
 * C++ Standard: C20 
 
  Instructions To Program:
- 1. Start the program
- 2. Make A Choice : View Parking Spots , Check In a Vehicle , Check Out a Vehicle ,View Parking Records, Exit program.
- 3. View Parking Spots : See what spots are avaliable/unavaliable
- 4. Check in Vehicle: Enter License Plate and Username then choose a spot and Enter Time and date of Arrival
- 5. Check Out Vehicle: Enter License plate and Username, Program will record departure and Fees
- 6. View Parking Records : View Sessions (License plates ,Parking spots , Arrival time , Departure times , parking status)
- 7. Exit : Select exist to close the application in order to save the data to the text file
+ 
+ 1. Make sure that AirportParking.txt file is in the same folder as the .cpp
+ 2. Run the program
+ 3. Read the display and choose a parking spot.
+ 4. If available it will adjust the .txt file, ends program. Otherwise if unavailable nothing happens, ends program.
+  
+
+
+TBA Later:
+ 3. Make A Choice : View Parking Spots , Check In a Vehicle , Check Out a Vehicle ,View Parking Records, Exit program.
+ 4. View Parking Spots : See what spots are avaliable/unavaliable
+ 5. Check in Vehicle: Enter License Plate and Username then choose a spot and Enter Time and date of Arrival
+ 6. Check Out Vehicle: Enter License plate and Username, Program will record departure and Fees
+ 7. View Parking Records : View Sessions (License plates ,Parking spots , Arrival time , Departure times , parking status)
+ 8. Exit : Select exist to close the application in order to save the data to the text file
  
  
