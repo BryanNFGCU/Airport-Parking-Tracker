@@ -1,5 +1,11 @@
 Hello this is the repository for the C++ Airport Parking Tracker, a project for COP 3003
 
+
+Operating System : Windows 11
+Compiler : Microsoft Visual Studio 2022 
+C++ Standard: 
+
+
 So Far the program:
 * 1. Reads parking spots from AirportParking.txt
 * 2. Displays each spot as Available or Unavailable
@@ -10,3 +16,10 @@ What we need to add:
 * 1. Way to vacate (free) parking spot
 * 2. Loop for user input
 * 3. Username for Parking spot, and display Username
+
+
+
+
+
+
+Instructions To Program:
