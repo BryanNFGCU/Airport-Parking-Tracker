@@ -13,7 +13,7 @@ What we need to add:
 
 
 
-//checkpoint 4//
+Instructions :
 
 * Operating System : Windows 11
 * Compiler : Microsoft Visual Studio 2022 
@@ -21,7 +21,7 @@ What we need to add:
 
  Instructions To Program:
  1. Start the program
- 2. Make A Choice : View Parking Spots , Check In a Vehicle , Check Out a Vehicle , Exit program.
+ 2. Make A Choice : View Parking Spots , Check In a Vehicle , Check Out a Vehicle ,View Parking Records, Exit program.
  3. View Parking Spots : See what spots are avaliable/unavaliable
  4. Check in Vehicle: Enter License Plate and Username then choose a spot and Enter Time and date of Arrival
  5. Check Out Vehicle: Enter License plate and Username, Program will record departure and Fees
