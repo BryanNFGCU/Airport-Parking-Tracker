@@ -35,6 +35,6 @@ TBA Later:
  5. Check in Vehicle: Enter License Plate and Username then choose a spot and Enter Time and date of Arrival
  6. Check Out Vehicle: Enter License plate and Username, Program will record departure and Fees
  7. View Parking Records : View Sessions (License plates ,Parking spots , Arrival time , Departure times , parking status)
- 8. Exit : Select exist to close the application in order to save the data to the text file
+ 8. Exit : Select exit to close the application in order to save the data to the text file
  
  
