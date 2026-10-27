@@ -60,7 +60,7 @@ int main()
 
     //user input for parking spot
     int spotChoice;
-    std::cout << "\nEnter spot number to reserve (1-5): ";
+    std::cout << "\nPlease enter a parking spot (1-5) to reserve: ;
     std::cin >> spotChoice;
 
     //update vector if valid
