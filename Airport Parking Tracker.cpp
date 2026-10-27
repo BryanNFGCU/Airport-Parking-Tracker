@@ -50,11 +50,11 @@ int main()
         std::cout << "Spot " << s.id << ": ";
         if (s.isTaken)
         {
-            std::cout << "Unavailable\n";
+            std::cout << "Spot is Unavailable\n";
         }
         else
         {
-            std::cout << "Available\n";
+            std::cout << "Spot is Available\n";
         }
     }
 
