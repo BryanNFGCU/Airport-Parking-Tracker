@@ -44,7 +44,7 @@ int main()
     inFile.close();
 
     //display status based on .txt file
-    std::cout << "AIRPORT PARKING STATUS\n";
+    std::cout << "CURRENT PARKING STATUS\n";
     for (const auto& s : spots)
     {
         std::cout << "Spot " << s.id << ": ";
