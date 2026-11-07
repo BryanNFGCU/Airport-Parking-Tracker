@@ -14,7 +14,7 @@ What we need to add:
 Requirements:
 - Operating system: Windows 11
 - Compiler : Microsoft Visual Studio 2022
-- C++ standard: C17 to C20
+- Language Standard: ISO C++ 20
 - Libraries: no dependencies (standard library only)
 
 How to run:
@@ -27,10 +27,11 @@ How to run:
 6. The program saves the change to `AirportParking.txt` and ends.
 
 TBA Later:
-1. View parking spots: see which are available.
-2. Check in a vehicle: enter license plate and username, choose a spot, and enter the arrival time.
-3. Check out a vehicle: enter license plate and username. The program records departure and the fee.
-4. View parking records: license plate, spot, arrival time, departure time, and status.
-5. Exit: closes the program and saves the data to the text file.
+1. Exit: closes the program and saves the data to the text file.
+2. More possible loops
+3. Check in a vehicle: enter license plate and username, choose a spot, and enter the arrival time.
+4. Check out a vehicle: enter license plate and username. The program records departure and the fee.
+5. View parking records: license plate, spot, arrival time, departure time, and status.
+
  
  
