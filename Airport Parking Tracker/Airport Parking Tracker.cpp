@@ -1,26 +1,26 @@
 /*
-AIRPORT PARKING TRACKER - CHECKPOINT 5
-11/3/26
+AIRPORT PARKING TRACKER - USERNAME UPDATE
+11/7/26
 
-- Spot class: one parking space
-- ParkingLot class: holds a vector of Spot objects (composition)
-- ParkingRate: abstract class with a pure virtual function
-- StandardRate and VIPRate: override calculateFee (polymorphism)
-- try/throw/catch: handles bad spot numbers, taken spots, bad hours
+- Username: the user types their name when reserving. Shown and saved to file. 
+- User must type something, currently will allow any user input like 8 or b. Might have character requirement later.
 
-Needs "AirportParking.txt" in the build folder. 
-Format 
+Needs "AirportParking.txt" in the build folder.
+Format (one spot per line)
 First Number: Spot number
-Second Number: avaiblility (1 = taken, 0 = open) 
+Second Number: availability (1 = taken, 0 = open)
 Third Number: VIP (1 = VIP, 0 = standard)
+Last line: username (only on reserved spots)
 Example:
-1 1 0
+1 1 0 Billy
 2 0 1
 3 0 0
+(Old files with only 3 numbers still work.)
 */
 
 #include <iostream>
 #include <fstream>
+#include <string>
 #include <vector>
 #include <stdexcept>
 using namespace std;
@@ -31,18 +31,27 @@ private:
     int id;
     bool taken;
     bool vip;
+    string username;    // who reserved the spot (empty if nobody)
 
 public:
-    Spot(int i, bool t, bool v)
+    Spot(int i, bool t, bool v, string name)
     {
         id = i;
         taken = t;
         vip = v;
+        username = name;
     }
     int getId() { return id; }
     bool isTaken() { return taken; }
     bool isVIP() { return vip; }
-    void reserve() { taken = true; }
+    string getUsername() { return username; }
+
+    // Reserve the spot and remember who reserved it
+    void reserve(string name)
+    {
+        taken = true;
+        username = name;
+    }
 };
 
 class ParkingLot
@@ -65,7 +74,13 @@ public:
             else
                 cout << " [Standard] ";
             if (spots[i].isTaken())
-                cout << "- Taken\n";
+            {
+                cout << "- Taken";
+                // Only show the username if the spot has one
+                if (spots[i].getUsername() != "")
+                    cout << " by " << spots[i].getUsername();
+                cout << "\n";
+            }
             else
                 cout << "- Available\n";
         }
@@ -106,7 +121,18 @@ int main()
     int id, taken, vip;
     while (inFile >> id >> taken >> vip)
     {
-        lot.addSpot(Spot(id, taken, vip));
+        // Read the rest of the line as the username (may be empty)
+        string name;
+        getline(inFile, name);
+
+        // Remove the spaces around the name
+        size_t start = name.find_first_not_of(" \t\r");
+        if (start == string::npos)
+            name = "";
+        else
+            name = name.substr(start, name.find_last_not_of(" \t\r") - start + 1);
+
+        lot.addSpot(Spot(id, taken, vip, name));
     }
     inFile.close();
 
@@ -118,6 +144,7 @@ int main()
         try
         {
             int choice, hours;
+            string name;
 
             cout << "\nEnter spot number (1-" << lot.getSize() << "): ";
             cin >> choice;
@@ -142,8 +169,24 @@ int main()
                 cin.ignore(1000, '\n');
                 throw runtime_error("Please enter hours as a number.");
             }
+            cin.ignore(1000, '\n');     // clear the Enter key before reading the name
             if (hours <= 0)
                 throw runtime_error("Hours must be greater than zero.");
+
+            // Ask for the username (getline allows spaces)
+            cout << "Enter your name: ";
+            getline(cin, name);
+
+            // Remove spaces at the start and end of the name
+            size_t start = name.find_first_not_of(" \t");
+            if (start == string::npos)
+                name = "";      // only spaces, so treat it as blank
+            else
+                name = name.substr(start, name.find_last_not_of(" \t") - start + 1);
+
+            // A blank name is not allowed
+            if (name == "")
+                throw runtime_error("Name cannot be blank.");
 
             //Pick the rate, then call it through the base class pointer
             StandardRate stdRate;
@@ -156,7 +199,8 @@ int main()
 
             cout << "Total fee: $" << rate->calculateFee(hours) << "\n";
 
-            spot.reserve();
+            // Reserve the spot only after everything was valid
+            spot.reserve(name);
             done = true;
         }
         catch (exception& e)
@@ -165,12 +209,15 @@ int main()
         }
     }
 
-    //Save the updated spots
+    //Save the updated spots 
     ofstream outFile("AirportParking.txt");
     for (int i = 0; i < lot.getSize(); i++)
     {
         Spot& s = lot.getSpot(i);
-        outFile << s.getId() << " " << s.isTaken() << " " << s.isVIP() << "\n";
+        outFile << s.getId() << " " << s.isTaken() << " " << s.isVIP();
+        if (s.getUsername() != "")
+            outFile << " " << s.getUsername();
+        outFile << "\n";
     }
     outFile.close();
     cout << "Spot reserved and saved!\n";
