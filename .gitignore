@@ -60,3 +60,12 @@ vcpkg_installed/
 # Test output & cache
 Testing/
 .cache/
+
+# Visual Studio and VS Code settings
+.vs/
+.vscode/
+
+# Build output
+x64/
+Debug/
+Release/
