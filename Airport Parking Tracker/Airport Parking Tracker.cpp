@@ -52,8 +52,12 @@ public:
         taken = true;
         username = name;
     }
+    void vacate()
+    {
+        taken = false;
+        username.clear();
+    }
 };
-
 class ParkingLot
 {
 private:
@@ -68,6 +72,8 @@ public:
     {
         for (int i = 0; i < getSize(); i++)
         {
+            if (spots[i].isTaken())
+                continue;
             cout << "Spot " << spots[i].getId();
             if (spots[i].isVIP())
                 cout << " [VIP] ";
@@ -137,7 +143,7 @@ int main()
     inFile.close();
 
     lot.show();
-
+    int action = 0;
     bool done = false;
     while (!done)
     {
@@ -145,7 +151,17 @@ int main()
         {
             int choice, hours;
             string name;
-
+            cout << "\n1 Reserve Spot\n";
+            cout << "2.Vacate a Spot\n";
+            cout << "Choose an action: ";
+            if (!(cin >> action))
+            {
+                cin.clear();
+                cin.ignore(1000, '\n'); //throws away the invalid input
+                throw runtime_error("please enter a number.");
+            }
+            if (action != 1 && action != 2)
+                throw runtime_error("Please enter 1 or 2.");
             cout << "\nEnter spot number (1-" << lot.getSize() << "): ";
             cin >> choice;
             if (cin.fail())
@@ -157,9 +173,19 @@ int main()
             if (choice < 1 || choice > lot.getSize())
                 throw runtime_error("That spot number does not exist.");
 
+            
             Spot& spot = lot.getSpot(choice - 1);
+            if (action ==2)
+            {
+            if (!spot.isTaken())
+                throw runtime_error("That spot is already available.");
+            spot.vacate();
+            done = true;
+            continue;
+        }
             if (spot.isTaken())
-                throw runtime_error("That spot is already taken.");
+                throw runtime_error("That spot is already taken. ");
+        
 
             cout << "Enter hours: ";
             cin >> hours;
