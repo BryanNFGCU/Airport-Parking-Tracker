@@ -36,13 +36,9 @@ public:
         username = name;
     }
 
-    //Checks out the spot 
+    
 
-    void checkout()
-    {
-        taken = false;
-        username = "";
-    }
+    
 };
 
 class ParkingLot
