@@ -24,14 +24,14 @@ Example:
 
 int main(int argc, char* argv[])   //AI Help
 {
-    // Start the graphical application framework framework backend engine
+  
     QApplication app(argc, argv);
 
-    // Construct and fire up your brand-new system management window dashboard panel
+    
     MainGUI w;
     w.show();
 
-    // Lock execution in frame cycle processing mode until the user clicks close
+    
     return app.exec();
 
 

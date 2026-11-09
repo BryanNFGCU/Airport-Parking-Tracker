@@ -4,11 +4,9 @@
 MainGUI::MainGUI(QWidget* parent)                   //AI HELPED.              
     : QMainWindow(parent)
 {
-    ui.setupUi(this); // Initializes all your drag-and-drop objects
+    ui.setupUi(this); 
 
     loadData();
-
-    // Populate your visual dropdown picker tool automatically with spot IDs
     for (int i = 0; i < lot.getSize(); i++) {
         ui.spotSelector->addItem(QString("Spot %1").arg(lot.getSpot(i).getId())); // ai help
     }
@@ -17,7 +15,7 @@ MainGUI::MainGUI(QWidget* parent)                   //AI HELPED.
 
 MainGUI::~MainGUI() {}
 
-// C#-style double-click event click handler for your confirmation button
+
 void MainGUI::on_reserveButton_clicked()   //AI HELPED
 {
     try {
@@ -26,57 +24,55 @@ void MainGUI::on_reserveButton_clicked()   //AI HELPED
 
         Spot& spot = lot.getSpot(choice);
 
-        // Validation check 1: Occupancy check
         if (spot.isTaken()) {
             throw runtime_error("That parking spot is already checked in and taken.");
         }
 
-        // Validation check 2: Parse text fields duration hours
+      
         bool parseOk;
         int hours = ui.hoursInput->text().toInt(&parseOk);
         if (!parseOk || hours <= 0) {
             throw runtime_error("Please enter a valid, positive number for hours.");
         }
 
-        // Validation check 3: String whitespace cleanup
+      
         string name = ui.nameInput->text().trimmed().toStdString();
         if (name.empty()) {
             throw runtime_error("Reservation name profile field cannot be blank.");
         }
 
-        // Your original Polymorphism Fee calculation logic engine
+       
         StandardRate stdRate;
         VIPRate vipRate;
         ParkingRate* rate = spot.isVIP() ? (ParkingRate*)&vipRate : (ParkingRate*)&stdRate;
         double calculatedFee = rate->calculateFee(hours);
 
-        // Track and lock changes into data memory structure configurations
         spot.reserve(name);
 
-        // Write updated logs down to the persistent text database block
+       
         saveData();
 
-        // Repaint the dashboard text area boards
+      
         refreshLotDisplay();
         ui.hoursInput->clear();
         ui.nameInput->clear();
 
-        // Operational Summary Pop-up Alert    //AI HELP
+           //AI HELP
         QMessageBox::information(this, "Reservation Confirmed!",
             QString("Spot %1 successfully booked for %2!\nTotal Calculated Fee Due: $%3")
             .arg(spot.getId()).arg(QString::fromStdString(name)).arg(calculatedFee, 0, 'f', 2));
 
     }
     catch (const exception& e) {     //AI HELP
-        // Pop-up warning dialog alerts replacing your console 'cout' errors
+        
         QMessageBox::warning(this, "Validation Error", e.what());
     }
 }
 
-// C#-style handler for your second 'View/Refresh' layout button
-void MainGUI::on_viewButton_clicked()                                 //AI HELPE
+
+void MainGUI::on_viewButton_clicked()                                 //AI HELP
 {
-    lot = ParkingLot(); // Resets your memory array structures so vectors don't duplicate logs
+    lot = ParkingLot(); 
     loadData();
     refreshLotDisplay();
 
@@ -99,7 +95,7 @@ void MainGUI::on_checkoutButton_clicked()
         }
 
         string customerName = spot.getUsername();
-        spot.checkout(); // Calls your backend method
+        spot.checkout(); 
         saveData();
         refreshLotDisplay();
 
