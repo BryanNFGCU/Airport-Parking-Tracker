@@ -1,7 +1,7 @@
-#include "MainGUi.h"
+#include "MainGUI.h"
 #include <QtWidgets/QMessageBox>
 
-MainWindow::MainWindow(QWidget* parent)                   //AI HELPED.              
+MainGUI::MainGUI(QWidget* parent)                   //AI HELPED.              
     : QMainWindow(parent)
 {
     ui.setupUi(this); // Initializes all your drag-and-drop objects
@@ -15,10 +15,10 @@ MainWindow::MainWindow(QWidget* parent)                   //AI HELPED.
     refreshLotDisplay();
 }
 
-MainWindow::~MainWindow() {}
+MainGUI::~MainGUI() {}
 
 // C#-style double-click event click handler for your confirmation button
-void MainWindow::on_reserveButton_clicked()   //AI HELPED
+void MainGUI::on_reserveButton_clicked()   //AI HELPED
 {
     try {
         int choice = ui.spotSelector->currentIndex();
@@ -74,7 +74,7 @@ void MainWindow::on_reserveButton_clicked()   //AI HELPED
 }
 
 // C#-style handler for your second 'View/Refresh' layout button
-void MainWindow::on_viewButton_clicked()                                 //AI HELP
+void MainGUI::on_viewButton_clicked()                                 //AI HELPE
 {
     lot = ParkingLot(); // Resets your memory array structures so vectors don't duplicate logs
     loadData();
@@ -84,9 +84,38 @@ void MainWindow::on_viewButton_clicked()                                 //AI HE
     ui.nameInput->clear();
 
     QMessageBox::information(this, "Dashboard Refreshed", "The parking display tracking board has been updated successfully.");
+
+
+}
+void MainGUI::on_checkoutButton_clicked()
+{
+    try {
+        int choice = ui.spotSelector->currentIndex();
+        if (choice < 0 || choice >= lot.getSize()) return;
+
+        Spot& spot = lot.getSpot(choice);
+        if (!spot.isTaken()) {
+            throw runtime_error("That parking spot is already vacant and available.");
+        }
+
+        string customerName = spot.getUsername();
+        spot.checkout(); // Calls your backend method
+        saveData();
+        refreshLotDisplay();
+
+        ui.hoursInput->clear();
+        ui.nameInput->clear();
+
+        QMessageBox::information(this, "Check Out Successful",
+            QString("Spot %1 has been freed up! Goodbye, %2.")
+            .arg(spot.getId()).arg(QString::fromStdString(customerName)));
+    }
+    catch (const exception& e) {
+        QMessageBox::warning(this, "Action Failure", e.what());
+    }
 }
 
-void MainWindow::loadData() {   //AI HELP
+void MainGUI::loadData() {   //AI HELP
     ifstream inFile("AirportParking.txt");
     if (!inFile) return;
     int id, taken, vip;
@@ -101,7 +130,7 @@ void MainWindow::loadData() {   //AI HELP
     inFile.close();
 }
 
-void MainWindow::refreshLotDisplay() {                                        //AI HELP
+void MainGUI::refreshLotDisplay() {                                        //AI HELP
     QString htmlOutput = "";
     for (int i = 0; i < lot.getSize(); i++) {
         Spot& s = lot.getSpot(i);
@@ -113,7 +142,7 @@ void MainWindow::refreshLotDisplay() {                                        //
     ui.lotDisplay->setHtml(htmlOutput);
 }
 
-void MainWindow::saveData() {        // Ai Help
+void MainGUI::saveData() {        // Ai Help
     ofstream outFile("AirportParking.txt");
     for (int i = 0; i < lot.getSize(); i++) {
         Spot& s = lot.getSpot(i);

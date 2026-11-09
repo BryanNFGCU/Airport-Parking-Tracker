@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include <stdexcept>
-#include <QtWidgets/QMessageBox>
+
 using namespace std;
 
 class Spot
@@ -99,44 +99,6 @@ public:
     double calculateFee(int hours) { return 15.0 + hours * 2.0; }
 };
 
-// Check Out Function
-
-void MainWindow::on_checkoutButton_clicked()
-{
-    try
-    {
-        int choice = ui.spotSelector->currentIndex();
-        if (choice < 0 || choice >= lot.getSize()) return;
-
-        Spot& spot = lot.getSpot(choice);
-
-
-        if (!spot.isTaken())
-        {
-            throw runtime_error("That parking spot is already vacant and avaliable.");
-        }
-
-        string customerName = spot.getUsername();
-
-        spot.checkout();
-
-        saveData();
-
-        refreshLotDisplay();
-
-        ui.hoursInput -> clear();
-        ui.nameInput -> clear();
-
-        
-        QMessageBox::information(this, "Check Out Successful", //AI HELP
-            QString("Spot %1 has been freed up! Goodbye, %2.")
-            .arg(spot.getId()).arg(QString::fromStdString(customerName)));
-
-    }
-    catch (const exception& e) {
-        // Catch-all safety warning popup window   //AI HELP
-        QMessageBox::warning(this, "Action Failure", e.what());
-    }
 
 
 
@@ -162,5 +124,6 @@ void MainWindow::on_checkoutButton_clicked()
 
 
 
- }
+
+ 
 

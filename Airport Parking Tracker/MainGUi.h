@@ -8,18 +8,17 @@
 #include "ui_MainWindow.h"
 
 
-class MainWindow : public QMainWindow  //ai help
+class MainGUI : public QMainWindow //AI help
 {
-    Q_OBJECT 
+    Q_OBJECT
 
 public:
-    MainWindow(QWidget* parent = nullptr);
-    ~MainWindow();
+    MainGUI(QWidget* parent = nullptr);
+    ~MainGUI();
 
-   
 private slots:
-    void on_reserveButton_clicked(); 
-    void on_viewButton_clicked();  
+    void on_reserveButton_clicked();
+    void on_viewButton_clicked();
     void on_checkoutButton_clicked();
 
 private:

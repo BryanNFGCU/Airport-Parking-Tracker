@@ -19,7 +19,7 @@ Example:
 */
 
 
-#include "MainGUi.h"
+#include "MainGUI.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char* argv[])   //AI Help
@@ -28,7 +28,7 @@ int main(int argc, char* argv[])   //AI Help
     QApplication app(argc, argv);
 
     // Construct and fire up your brand-new system management window dashboard panel
-    MainWindow w;
+    MainGUI w;
     w.show();
 
     // Lock execution in frame cycle processing mode until the user clicks close
