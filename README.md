@@ -9,7 +9,7 @@ So Far the program:
 What we need to add:
 1. Way to vacate (free) parking spot
 2. Loop for user input
-3. Username for Parking spot, and display Username
+3. GUI, Display and Code
   
 Requirements:
 - Operating system: Windows 11
