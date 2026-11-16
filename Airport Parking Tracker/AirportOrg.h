@@ -35,8 +35,12 @@ public:
         taken = true;
         username = name;
     }
-
-    
+    void vacate()
+    {
+        taken = false;
+        username.clear();
+    }
+};
 
     
 };
