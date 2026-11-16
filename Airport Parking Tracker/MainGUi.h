@@ -19,7 +19,7 @@ public:
 private slots:
     void on_reserveButton_clicked();
     void on_viewButton_clicked();
-    void on_checkoutButton_clicked();
+    //void on_checkoutButton_clicked();
 
 private:
     Ui::MainWindow ui;

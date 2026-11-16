@@ -1,0 +1,429 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2026-11-09 00:30:16",
+  "files": {
+    "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\Airport Parking Tracker.vcxproj": {
+      "before": "7VndT+NGEL/nSv0L+mJZnBIeiPPBFSiOT72E0qgBogsfL5VOG3ucbLG91u6ag/b6v3dsr9dxPjgiWlA5eEDyemZ2/NuZ38xsBj+8eWO/vw0D4wa4oCzqmq1G0zQgcplHo2nXTKS/s2++d77/zh5x9ge40uiDT5JAnhM+BSm65oeEBp5poJUIn2ZSxj9ZlnBnEBLRCKnLmWC+bLgstDy4gYDFwK1QTFI1q91sdky0bhj2QEJ4zFkSG0MygaBrqg17LPLpNOFEooMiF0bxVW+NQeQGiQddsw+TZPrlikaddqGBOhVTTiZjW9XF1JX0zx4FRPqMh05mxLb0cy6BCzkeq9S/4txHCIAI+Ip7Suo5HMzRu/1x97HYoYn/BLn7XHswbhs6Z1s6QvOAxQDAUJZ3laA9DtiEBGWYXvZUnFzmGea09htN21paVlH1G9x9ZtzLgy7VtK1iSUkoc8cJ9Zy/Dpotv0UOOjt+y23t7EK7s3PQ3Nvbebf3zt+b+Pud/d3O3zpUMx1l5iNj8pSEIGLigvMz5THjckT4Nab9OSfuNXDbqgopTcwHj30Wef4XWaG/rpl+3b0iqZnMpRI8RQBh6oOhPrBrbtUve4plRkTOtn8/0WTSi+OG4qFGjMcgTMNadSiYnB5NeaNr1rbqlVTd/rJVL7zfrnW7tTnKqJkFB1VUimyo8sj5XYwAxnFA3YyiFhI2e62guxCQ7TKkE044BeFInoBtLa8rhcLBc8YCAdK5ae12yoQqVpVwb0bw4CTwMUpeRBQ5HG1XVtdij6CXx2FsAluFzJ4OOB+T7F9D7mrGAkAIppyEZ7GkIf0zO0p1PGtfPyvwmqSfDvSXE63I/U8H20uJ1cFmBF0l5ly5UiuPbiVEaduJhCWx7qiqiYU22yiTnS8NFeUxsh14OSU/TKPguPEMsHE1N2K5SnHIfMIitowHEjlPi2af8sVyNVdtGgmKFXVrjmvhlgop6lipNrZT29Yla8hcEmA96hNJivqhy+ODoH0MUAvl4BUqPbqsaTgyJnqFaT1MRUS9PKCKPKvwWpr6JySdmnXSpnMHdrs0ylrZXHqONjbrbItQ6wU9FsY0ALWAfHZFeIQ0PEyndCf7j81mZTFveFB03B/2ZuBeqw5JP2qBEQfkfxeEYLz0XThXg9NO+/BT/+jDxfHhp97Z6fhseHT4tr5GfjudFFZb0lulPToO6iRy4QRbXuXS4qoWH5JompApjCWJPIKzlpCeG8dtnFuWXuVK2EQvgGUPaXRdAjdOJuM7gafk4K4Ce0nbKpf0xscQAd5i5CPAIPc5nU2Uw2tfF07M7WmfkIj6IGTpw1FEJgGMYRpCJH8FEiuzy+uFvYqNfLotT2q++D4y/IoEzi5SauUQtYDpZgH4SxK5KXhZmKbIYOCqL175Sp/CIJKcYtfhFmLFELbihVbS8Z13wPpRC6wL0jzcT1/D/dsJ97m57Jm59pVlv0GWrbRJi3XrRXLsK7v+z8K87C0wHnWIlj/eqNtoQ11HG+o+uoFdmu6JFy/jl2fxey+PZf7rlTY3d+NQXP3q2wl1B736qkFfrjv/AA==",
+      "after": "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"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2026-11-09 00:30:16</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[C:\Users\jbgae\OneDrive\Documents\GitHub\Airport-Parking-Tracker\Airport Parking Tracker\Airport Parking Tracker.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--u+mHlW40HLvIQ/0/mGvLztgWrxmuXrvRWDqLuVmGpgM=-->
