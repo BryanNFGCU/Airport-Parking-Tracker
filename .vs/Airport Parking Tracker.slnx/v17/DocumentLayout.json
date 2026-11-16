@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Airport Parking Tracker\\MainGUI.h",
               "ToolTip": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\MainGUI.h",
               "RelativeToolTip": "Airport Parking Tracker\\MainGUI.h",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-11-09T14:34:36.646Z",
               "IsPinned": true,
@@ -52,26 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ui_MainWindow.h",
-              "DocumentMoniker": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
-              "RelativeDocumentMoniker": "Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
-              "ToolTip": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
-              "RelativeToolTip": "Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-10T02:06:16.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AirportOrg.h",
               "DocumentMoniker": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\AirportOrg.h",
               "RelativeDocumentMoniker": "Airport Parking Tracker\\AirportOrg.h",
               "ToolTip": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\AirportOrg.h",
               "RelativeToolTip": "Airport Parking Tracker\\AirportOrg.h",
-              "ViewState": "AgIAABcAAAAAbw6I/aEWwCMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAArrBZfqQlwCoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-11-09T05:53:18.492Z",
               "EditorCaption": ""
@@ -84,10 +71,22 @@
               "RelativeDocumentMoniker": "Airport Parking Tracker\\ParkingGUi.cpp",
               "ToolTip": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\ParkingGUi.cpp",
               "RelativeToolTip": "Airport Parking Tracker\\ParkingGUi.cpp",
-              "ViewState": "AgIAAGIAAACAONHSpsYEwDQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAABAfTKM2O4swFsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-09T15:15:34.869Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ui_MainWindow.h",
+              "DocumentMoniker": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
+              "RelativeDocumentMoniker": "Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
+              "ToolTip": "C:\\Users\\jbgae\\OneDrive\\Documents\\GitHub\\Airport-Parking-Tracker\\Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
+              "RelativeToolTip": "Airport Parking Tracker\\x64\\Debug\\qt\\uic\\ui_MainWindow.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-10T02:06:16.934Z"
             },
             {
               "$type": "Document",
