@@ -59,6 +59,8 @@ public:
     {
         for (int i = 0; i < getSize(); i++)
         {
+            if (spots[i].isTaken())
+                continue;
             cout << "Spot " << spots[i].getId();
             if (spots[i].isVIP())
                 cout << " [VIP] ";
@@ -99,8 +101,28 @@ public:
     double calculateFee(int hours) { return 15.0 + hours * 2.0; }
 };
 
-
-
+int action = 0;
+cout << "\n1 Reserve Spot\n";
+cout << "2.Vacate a Spot\n";
+cout << "Choose an action: ";
+if (!(cin >> action))
+{
+    cin.clear();
+    cin.ignore(1000, '\n'); //throws away the invalid input
+    throw runtime_error("please enter a number.");
+}
+if (action != 1 && action != 2)
+throw runtime_error("Please enter 1 or 2.");
+Spot& spot = lot.getSpot(choice - 1);
+if (action == 2)
+{
+    if (!spot.isTaken())
+        throw runtime_error("That spot is already available.");
+    spot.vacate();
+    done = true;
+    continue;
+}
+throw runtime_error("That spot is already taken. ");
 
 
 
