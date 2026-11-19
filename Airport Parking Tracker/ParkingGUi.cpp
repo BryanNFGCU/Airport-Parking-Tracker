@@ -38,7 +38,7 @@ void MainGUI::on_reserveButton_clicked()   //AI HELPED
       
         string name = ui.nameInput->text().trimmed().toStdString();
         if (name.empty()) {
-            throw runtime_error("Reservation name profile field cannot be blank.");
+            throw runtime_error("Name profile field cannot be blank.");
         }
 
        
@@ -58,7 +58,7 @@ void MainGUI::on_reserveButton_clicked()   //AI HELPED
         ui.nameInput->clear();
 
            //AI HELP
-        QMessageBox::information(this, "Reservation Confirmed!",
+        QMessageBox::information(this, "Spot Confirmed!",
             QString("Spot %1 successfully booked for %2!\nTotal Calculated Fee Due: $%3")
             .arg(spot.getId()).arg(QString::fromStdString(name)).arg(calculatedFee, 0, 'f', 2));
 
@@ -67,6 +67,38 @@ void MainGUI::on_reserveButton_clicked()   //AI HELPED
         
         QMessageBox::warning(this, "Validation Error", e.what());
     }
+}
+
+void MainGUI::on_checkoutButton_clicked() 
+{
+    try {
+        int choice = ui.spotSelector->currentIndex();
+        if (choice < 0 || choice >= lot.getSize()) return;
+
+        Spot& spot = lot.getSpot(choice);
+
+        if (!spot.isTaken()) {
+            throw runtime_error("That parking spot is already Vacant.");
+        }
+
+        string customerName = spot.getUsername();
+        spot.vacate();
+        saveData();
+        refreshLotDisplay();
+
+        ui.hoursInput->clear();
+        ui.nameInput->clear();
+
+        QMessageBox::information(this, "Check Out Completed",          // AI HELP
+            QString("Spot %1 has been freed up! Have a Great Day, %2.")
+            .arg(spot.getId()).arg(QString::fromStdString(customerName)));
+    }
+
+    catch (const exception& e) {
+        QMessageBox::warning(this, "Action Failure", e.what());
+    }
+
+
 }
 
 
